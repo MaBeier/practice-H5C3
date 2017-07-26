@@ -1,0 +1,253 @@
+/*第一屏*/
+.sr_container-1_h1{
+	transition:all 1s;
+	opacity: 0;
+	transform:translate(0,0);
+}
+.sr_container-1_h1_animate_init{
+	opacity: 0;
+	transform:translate(0,200px);
+}
+.sr_container-1_h1_animate_done{
+	opacity: 1;
+	transform:translate(0,0);
+}
+
+.sr_container-1_p{
+	transition:all 1s ease-in .5s;
+	opacity: 0;
+	transform:translate(0,0);
+	
+}
+.sr_container-1_p_animate_init{
+	opacity: 0;
+	transform:translate(0,200px);
+}
+.sr_container-1_p_animate_done{
+	opacity: 1;
+	transform:translate(0,0);
+}
+
+/*第二屏*/
+
+.sr_container-2_h1{
+	transition:all 1s ease-in .5s;
+	opacity: 0;
+	transform:translate(0,200%);
+	
+}
+.sr_container-2_h1_animate_init{
+	opacity: 0;
+	transform:translate(0,200px);
+}
+.sr_container-2_h1_animate_done{
+	opacity: 1;
+	transform:translate(0,0);
+}
+
+
+
+
+.sr_container-2_p{
+	transition:all 1s ease-in 1s;
+	opacity: 0;
+	transform:translate(0,200%);
+	
+}
+.sr_container-2_p_animate_init{
+	opacity: 0;
+	transform:translate(0,200px);
+}
+.sr_container-2_p_animate_done{
+	opacity: 1;
+	transform:translate(0,0);
+}
+
+.sr_container-2_border{
+	transition:all 1s ease-in 1s;
+	opacity: 0;
+	transform:translate(0,200px);
+	
+}
+.sr_container-2_border_animate_init{
+	opacity: 0;
+	transform:translate(0,200px);
+}
+.sr_container-2_border_animate_done{
+	opacity: 1;
+	transform:translate(0,0);
+}
+
+.sr-2_people{
+	transition:all 1s ease-in 1s;
+	opacity: 0;
+}
+.sr-2_people_animate_init{
+	opacity: 0;
+}
+.sr-2_people_animate_done{
+	opacity: 1;	
+}
+
+.sr-2_rocket{
+	transition:all 0.3s ease-in 1.5s;
+	opacity: 0;
+}
+.sr-2_rocket_animate_init{
+	opacity: 0;	
+	transform: translate(0,100%);
+}
+.sr-2_rocket_animate_done{
+	opacity: 1;	
+	transform: translate(0,0);
+}
+
+/*第三屏*/
+.sr_container-3_h1{
+	opacity: 0;
+	transition:all 0.5s;
+}
+.sr_container-3_h1_animate_init{
+	opacity: 0;
+	transform: translate(0,200px);
+}
+.sr_container-3_h1_animate_done{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+
+.sr_container-3_p{
+    transition:all 0.5s 0.5s;
+	opacity: 0;
+}
+.sr_container-3_p_animate_init{
+	transform: translate(0,200px);
+	opacity: 0;
+}
+
+.sr_container-3_p_animate_done{
+	transform: translate(0,0);
+	opacity: 1;
+}
+
+
+.border_b3{
+	transition:all 0.5s 0.5s;
+	opacity: 0;
+}
+.border_b3_animate_init{
+	transform: translate(0,200px);
+	opacity: 0;
+}
+.border_b3_animate_done{
+	transform: translate(0,0);
+	opacity: 1;
+}
+.sr-3_img{
+	transition:all 0.5s 0.5s;
+	transform: scale(0.2);
+	transform-origin: 0 0 0;
+	transform: translate(-50,-50);
+}
+.sr-3_img_animate_init{
+	transform: scale(1);
+	opacity: 0;
+	position: 0 0;
+}
+.sr-3_img_animate_done{
+	transform: scale(1);
+}
+.sr-3_ul{
+	opacity: 1;
+	-webkit-animation:bounce 1s ease-in 1s;
+	position: relative;
+}
+
+@-webkit-keyframes bounce{
+	0%{top:100px;}
+	50%{top: -40px;}
+	75%{top: 0px;}
+	85%{top: -20px;}
+	100%{top: 0px;}
+}
+
+/*第四屏*/
+.sr_container-4{
+	transition:all 1s ease-in;
+	opacity: 0;
+}
+.sr_container-4_animate_init{
+	opacity: 0;
+}
+.sr_container-4_animate_done{
+	opacity: 1;
+}
+.sr-4_tu{
+	transition:all 1s ease-in;
+	opacity: 0;
+}
+.sr-4_tu_animate_init{
+	opacity: 0;
+}
+.sr-4_tu_animate_done{
+	opacity: 1;
+}
+
+/*第五屏*/
+.sr-5_img{
+	transform: all 1s;
+	transform: scale(0.5);
+}
+.sr-5_img_animate_init{
+	transform: scale(0.5);
+	transform-origin: 50% -20%;
+}
+.sr-5_img_animate_done{
+	transform: scale(1);
+}
+.sr_container-5_h1{
+	transition: all 1s;
+}
+.sr_container-5_h1_animate_init{
+	opacity: 0;
+	transform: translate(0,200px);
+}
+.sr_container-5_h1_animate_done{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.sr_container-5_p,.border_b5{
+	transition: all 1s 0.5s;
+}
+.sr_container-5_p_animate_init,.border_b5_animate_init{
+	opacity: 0;
+	transform: translate(0,200px);
+}
+.sr_container-5_p_animate_done,.border_b5_animate_done{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.header_nav-tip{
+
+}
+.header_nav-tip_active{
+	
+}
+
+
+/*.outline{
+	transform: translate(100%,0);
+	transition: all 1s;
+}
+
+.outline_status_in{
+	transform: translate(0,0);
+	
+}
+
+.outline__item{
+	transition: all 1s;
+}
+*/
