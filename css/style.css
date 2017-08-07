@@ -64,6 +64,9 @@ p{
 	color: #f01400;
 }
 
+.nav_item_last{
+	color: #fff;
+}
 
 .header_nav-tip{
 	width: 110px;
@@ -73,11 +76,21 @@ p{
 	
 }
 .container{
+	
 	width: 100%;
+	margin: 0 auto;
+}
+
+.sr_container{
+	
+	width: 100%;
+	margin:0 auto;
+
 }
 
 .sr{
 	height: 640px;
+	margin:0 auto;
 }
 
 .sr-1{
