@@ -1,6 +1,7 @@
-*{
+*{	
 	margin:0;padding: 0px;
 }
+
 a{
 	text-decoration: none;
 }
@@ -32,41 +33,44 @@ p{
 	z-index: 3;
 }
 
-
 .logo{
+	position: relative;
 	float: left;
-	background:url("../img/logo.png") no-repeat left center;
-	background-size: 40px 40px;
-	color: #fff;
-	line-height: 50px;
-	font-size: 20px;
-	text-indent: 20px;
-	width: 200px;
+	clear: both;
 }
+.logo  img{
+	margin-top: 5px;
+}
+.logo span{
+	position: absolute;
+	width: 100px;
+	top: 50%;
+	margin-top:-7px;
+	margin-left: 7px;
+	color: #fff;	
+}
+
 
 .header_nav{
-	float: right;position: relative;
+	position: relative;
+	float: right;
 }
-
 .nav_item{
 	color: #fff;
 	font-size: 20px;
 	line-height: 50px;
 	padding: 5px 15px;
-	
 }
-
 .nav_item_last{
-	background: #f00;
+	background: #f00;color: #fff;
 }
-
 .header_nav-item_active{
 	color: #f01400;
 }
-
 .nav_item_last{
 	color: #fff;
 }
+
 
 .header_nav-tip{
 	width: 110px;
@@ -75,24 +79,17 @@ p{
 	position: absolute;
 	
 }
-.container{
-	
-	width: 100%;
-	margin: 0 auto;
-}
 
 .sr_container{
-	
 	width: 100%;
-	margin:0 auto;
-
 }
 
 .sr{
 	height: 640px;
-	margin:0 auto;
 }
 
+
+/*sr-1*/
 .sr-1{
 	text-align: center;
 	background: url(../img/sc1.jpg);
@@ -105,41 +102,14 @@ p{
 	padding-top: 20%;
 }
 
-.sr-2{
-	
-		position: relative;		
-				
-}
 
 
-.sr-2 .bat{ 
-	position: absolute;
-	bottom: 0;left:20%;
-	width: 750px;
-	height: 361px;
-    background: url(../img/sc2.png) no-repeat center bottom;
-}
-.sr-2_rocket{
-	position: absolute;
-	bottom: 30%;left: 50%;
-	width: 266px;
-	height: 205px;
-	background:url(../img/sc2-2.png) no-repeat center ;
-}
-.sr-2_people{
-	position: absolute;
-	bottom: 0;left:42%;
-	width: 275px;
-	height: 380px;
-    background:url(../img/sc2-1.png) no-repeat center;
-}
-
-
-
-
+/*sr-2*/
 .sr_container-2{
+	position: relative;
 	text-align: center;
 	color:#000;
+	height: 640px;
 }
 .border_b2{
 	border-bottom: 5px solid red;
@@ -147,13 +117,43 @@ p{
 	margin-left: 48%;margin-top: 10px;
 }
 
+.sr-2 .bat{ 
+	position: absolute;
+	bottom: 0;
+	left:50%;
+	margin-left: -375px;
+	width: 750px;
+	height: 361px;
+    background: url(../img/sc2.png) no-repeat center bottom;
+}
+.sr-2_rocket{
+	position: absolute;
+	bottom: 30%;
+	left: 50%;
+	width: 266px;
+	height: 205px;
+	background:url(../img/sc2-2.png) no-repeat center ;
+}
+.sr-2_people{
+	position: absolute;
+	bottom: 0;
+	left:50%;
+	margin-left: -137px;
+	width: 275px;
+	height: 380px;
+    background:url(../img/sc2-1.png) no-repeat center;
+}
+
+
+/*sr-3*/
 .sr-3{
-	position: relative;
 	background-size: 500px 640px;
 	background-color:rgba(0,0,0,.8);
 }
 .sr_container-3{
-	padding-top: 12%;padding-left: 50%;
+	position: relative;
+	padding-top: 12%;
+	padding-left: 50%;
 	color:#fff;
 }
 .border_b3{
@@ -162,16 +162,21 @@ p{
 	margin-left: 2%;margin-top: 10px;
 }
 
-ul{
+ul{ 
 	list-style: none;
 	margin-top: 15%;
 }
 li{ 
-	width: 40px;height: 40px;
 	display: inline-block;
-	padding: 20px;margin-right: 30px;
-	line-height: 40px;text-align: center;
+	margin-right: 30px;
+	padding: 20px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+
 }
+
 .pro-1{
 	border: 1px solid blue;
 	border-radius: 50%;
@@ -198,13 +203,18 @@ li{
 	box-shadow: 0px 0px 10px 5px green;
 }
 .sr-3_img{
-	width: 500px;height: 500px;
+	width: 500px;
+	height: 500px;
 	position: absolute;
-	background: url(../img/sc3.png) no-repeat;background-size: contain;
-	left: 5%;top: 10%;
+	top: 50%;
+	margin-top:-200px;
+	left: 0;
+	background: url(../img/sc3.png) no-repeat;
+	background-size: contain;	
 }
 
 
+/*sr-4*/
 .sr-4{
 	background:#fff ;
 }
@@ -223,23 +233,21 @@ li{
 .sr-4_tu{
 	text-align: center;margin-top: 15%;
 }
-.sr-5{
-	position: relative;          
-}
 
+/*sr-5*/
+.sr-5{
+	background:url(../img/sc5.jpg);
+	background-size: cover;       
+}
 .sr-5_img{
 	width:200px;height:200px;
 	position: absolute;
-	top: 20%;left: 40%;
+	top: 20%;left: 50%;
+	margin-left: -100px;
 	background:url(../img/sc5-1.png) ;
 }
-.sr-5_bg{
-	width: 100%;height:640px ;
-	position: absolute;
-	background:url(../img/sc5.jpg);
-	background-size: cover;
-}
 .sr_container-5{
+	position: relative;   
 	color: #fff;
 	text-align: center;
 	padding-top: 30%;
@@ -249,19 +257,31 @@ li{
 	width:50px;
 	margin-left: 48%;margin-top: 10px;
 }
+
+
+/*sr-6*/
 .sr-6{
+	height: 200px;
+}
+.sr_container-6{
 	height: 200px;
 	position: relative;
 }
 .button{
 	position: absolute;
 	width: 200px;height: 40px;
-	left: 41%;top: 40%;
+	left: 50%;
+	top: 50%;
+	margin-left: -100px;
+	margin-top: -20px;
 	}
 .button:hover{
 	cursor: pointer;
 	color: red;
 }
+
+
+/*footer*/
 .footer{
 	width: 100%;
 	height: 50px;
