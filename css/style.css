@@ -21,7 +21,7 @@ p{
 }
 
 .warp{
-	width:1200px;
+	max-width:1200px;
 	margin:0 auto;
 }
 .header{
@@ -73,21 +73,20 @@ p{
 
 
 .header_nav-tip{
-	width: 110px;
-	border-top: 5px solid red;
-	margin-top: -8px;
+	width: 110px;	
+	height: 8px;
 	position: absolute;
-	
+	left: 0;bottom: 0;
+	background: red;
 }
 
 .sr_container{
 	width: 100%;
 }
 
-.sr{
+.sr{ 
 	height: 640px;
 }
-
 
 /*sr-1*/
 .sr-1{

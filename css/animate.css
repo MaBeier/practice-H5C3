@@ -47,7 +47,6 @@
 
 
 
-
 .sr_container-2_p{
 	transition:all 1s ease-in 1s;
 	opacity: 0;
@@ -237,17 +236,15 @@
 }
 
 
-/*.outline{
+
+
+.outline{
 	transform: translate(100%,0);
 	transition: all 1s;
 }
 
 .outline_status_in{
 	transform: translate(0,0);
-	
 }
 
-.outline__item{
-	transition: all 1s;
-}
-*/
+
