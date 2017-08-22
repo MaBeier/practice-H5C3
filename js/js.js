@@ -101,7 +101,7 @@ function playScreenAnimateDone(screenCls){
 
 //滚动条动
 window.onscroll = function(){
-  var top  = document.body.scrollTop;
+  var top  = document.body.scrollTop || document.documentElement.scrollTop ;
   switchNavItemsActive(0);
   if(top<620){
     playScreenAnimateDone('.sr-1');
@@ -156,9 +156,12 @@ function setNavJump(i,lib){
   lib[i].onclick=function(){
     if(i==0){
       document.body.scrollTop=0; 
+      document.documentElement.scrollTop =0; 
     }
     else
-      {document.body.scrollTop=i*640;
+      {
+        document.body.scrollTop=i*640;
+        document.documentElement.scrollTop = i*640;
     switchNavItemsActive(i);}
   }
 }
